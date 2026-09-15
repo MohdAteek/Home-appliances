@@ -29,7 +29,7 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
               <svg class="w-3.5 h-3.5 text-[var(--color-secondary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
-              <span>Doorstep Repair in 90 Mins • 100% Genuine OEM Spare Parts</span>
+              <span>Doorstep Service Charge ₹399 • 90 Mins Dispatch • 100% Genuine OEM Spares</span>
             </span>
           </div>
 
@@ -83,7 +83,7 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
           <div class="flex items-center gap-8">
             <a href="#hero" class="flex items-center gap-3.5 group text-decoration-none">
               <div class="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-[#121417] via-[#1e2229] to-[#0f172a] text-white flex items-center justify-center font-serif text-xl font-extrabold shadow-xl ring-1 ring-[var(--border-gold)] group-hover:scale-105 transition-all duration-300">
-                <span class="bg-gradient-to-tr from-amber-400 via-[var(--color-secondary)] to-amber-200 bg-clip-text text-transparent">S</span>
+                <span class="bg-gradient-to-tr from-amber-400 via-[var(--color-secondary)] to-amber-200 bg-clip-text text-transparent">O</span>
                 <div class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-[var(--color-secondary)] border-2 border-[var(--bg-surface)] flex items-center justify-center">
                   <span class="text-[0.55rem] text-white font-bold">🔧</span>
                 </div>
@@ -91,7 +91,7 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
               <div class="flex flex-col">
                 <div class="flex items-center gap-2">
                   <span class="font-serif text-2xl font-extrabold tracking-tight text-[var(--text-main)] leading-none">
-                    SULTAN
+                    OmniAppliances
                   </span>
                   <span class="inline-block px-2 py-0.5 rounded text-[0.6rem] font-extrabold tracking-widest uppercase bg-[var(--color-secondary)]/15 text-[var(--color-secondary)] border border-[var(--color-secondary)]/30">
                     REPAIR & SERVICE
@@ -210,7 +210,7 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
               href="#offers" 
               class="px-3.5 py-2 rounded-xl text-sm font-bold text-[var(--text-main)] hover:bg-[var(--border-subtle)]/50 hover:text-[var(--color-secondary)] transition-all flex items-center gap-1">
               <span>Service Combos</span>
-              <span class="px-1.5 py-0.2 rounded text-[0.6rem] bg-amber-600 text-white font-extrabold">₹499+</span>
+              <span class="px-1.5 py-0.2 rounded text-[0.6rem] bg-amber-600 text-white font-extrabold">₹399+</span>
             </a>
 
             <!-- Single Link 4: Rate Card -->
@@ -376,8 +376,8 @@ export class HeaderComponent {
   storageService = inject(StorageService);
   interiorService = inject(InteriorService);
 
-  readonly contactNumber = '8076224170';
-  readonly whatsappUrl = 'https://wa.me/918076224170?text=' + encodeURIComponent('Hello Sultan Home Appliances, I would like to book a repair technician for my kitchen cooking appliance.');
+  readonly contactNumber = '8088034849';
+  readonly whatsappUrl = 'https://wa.me/918088034849?text=' + encodeURIComponent('Hello OmniAppliances, I would like to book a repair technician for my kitchen cooking appliance.');
 
   openFavorites = output<void>();
   openConsultation = output<void>();

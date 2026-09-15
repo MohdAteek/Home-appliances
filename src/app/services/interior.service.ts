@@ -130,9 +130,9 @@ export class InteriorService {
         { step: 6, title: 'Blue Flame Pressure Calibration', desc: 'Calibrating gas-to-oxygen ratio to deliver crisp 100% blue flame with zero soot.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN PROFESSIONAL BUILT-IN HOB REPAIR & RESTORATION OVERVIEW:',
+        '1. OMNIAPPLIANCES PROFESSIONAL BUILT-IN HOB REPAIR & RESTORATION OVERVIEW:',
         'Built-in gas hobs represent the architectural centerpiece of modern modular kitchens. However, continuous exposure to high heat, spilled oil, boiling milk, and heavy Indian spices inevitably leads to clogged injectors, oxidized thermocouples, and malfunctioning ignition micro-switches.',
-        'At Sultan Home Appliances Repair Service, we provide dedicated, specialized doorstep repair solutions for high-end European and Indian built-in hobs, including Bosch FlameSelect, Siemens StepFlame, Faber Primo, Elica, and Häfele Vertex collections.',
+        'At OmniAppliances Repair Service, we provide dedicated, specialized doorstep repair solutions for high-end European and Indian built-in hobs, including Bosch FlameSelect, Siemens StepFlame, Faber Primo, Elica, and Häfele Vertex collections.',
         '',
         '2. COMPREHENSIVE DIAGNOSTIC & REPAIR METHODOLOGY:',
         'Our certified master technicians arrive equipped with electronic gas detection meters, micro-flame jet reaming tools, multi-meter electrical testing gear, and genuine OEM replacement components directly sourced from authorized brand channels.',
@@ -148,8 +148,8 @@ export class InteriorService {
         'We also service and re-align heavy cast iron pan supports, replace broken rotary knobs with genuine die-cast metal dials, and test all 3 to 5 burners under full cooking load before certifying the appliance safe for daily family use.',
         '',
         '5. PRICING, WARRANTY & EMERGENCY DISPATCH:',
-        'All built-in hob repairs start from a transparent diagnostic inspection rate of ₹399. Any replaced component carries a 100% genuine 1-Year OEM warranty, supported by our comprehensive 90-Day Sultan Service Assurance.',
-        'Emergency breakdown and gas leak support is available within 90 minutes across all major city sectors. Call our dedicated repair desk at 8076224170 or book on WhatsApp for immediate doorstep technician dispatch.'
+        'All built-in hob repairs start from a transparent diagnostic inspection rate of ₹399. Any replaced component carries a 100% genuine 1-Year OEM warranty, supported by our comprehensive 90-Day OmniAppliances Service Assurance.',
+        'Emergency breakdown and gas leak support is available within 90 minutes across all major city sectors. Call our dedicated repair desk at 8088034849 or book on WhatsApp for immediate doorstep technician dispatch.'
       ]
     },
     {
@@ -193,9 +193,9 @@ export class InteriorService {
         { step: 6, title: 'Re-assembly & Exhaust Duct Sealing', desc: 'Acoustic vibration dampening, aluminium duct taping, and 100% full-speed suction verification.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN MASTER KITCHEN CHIMNEY REPAIR & DEEP DESCALING OVERVIEW:',
+        '1. OMNIAPPLIANCES MASTER KITCHEN CHIMNEY REPAIR & DEEP DESCALING OVERVIEW:',
         'In Indian kitchens, cooking with rich oils, ghee, and roasted spices releases dense grease-laden vapors. Over 6 to 12 months, this vapor coats the internal centrifugal blower, motor shaft, and exhaust duct with heavy, flammable sludge, degrading suction by up to 70% and straining the motor.',
-        'Sultan Home Appliances provides factory-grade on-site chimney servicing, chemical foam degreasing, BLDC inverter motor repairs, and PCB electronics troubleshooting for Faber, Elica, Hindware, Bosch, Crompton, and Häfele kitchen hoods.',
+        'OmniAppliances provides factory-grade on-site chimney servicing, chemical foam degreasing, BLDC inverter motor repairs, and PCB electronics troubleshooting for Faber, Elica, Hindware, Bosch, Crompton, and Häfele kitchen hoods.',
         '',
         '2. COMPLETE SUCTION RESTORATION & MOTOR REWINDING:',
         'When your chimney runs loudly but fails to pull smoke, the primary culprit is hardened oil caked onto the balanced blower fan blades or an oxidized starting capacitor. Our technicians carefully unmount the blower unit, perform deep ultrasonic chemical descaling, and lubricate high-speed motor bearings.',
@@ -211,7 +211,7 @@ export class InteriorService {
         '',
         '5. PRICING, ANNUAL MAINTENANCE (AMC) & RAPID DISPATCH:',
         'Basic chimney maintenance and diagnostic inspection begins at just ₹499, while comprehensive chemical deep descaling combos are offered at ₹799. All replacement blowers, PCB boards, and motors include official warranty coverage.',
-        'We also offer Annual Maintenance Contracts (AMC) with quarterly checkups to keep your kitchen completely smoke and odor-free. Contact our master service team at 8076224170 for same-day doorstep booking.'
+        'We also offer Annual Maintenance Contracts (AMC) with quarterly checkups to keep your kitchen completely smoke and odor-free. Contact our master service team at 8088034849 for same-day doorstep booking.'
       ]
     },
     {
@@ -231,7 +231,7 @@ export class InteriorService {
       trendingStyle: 'Tri-Pin Brass Reaming & Re-sealing',
       executionWeeks: 'Within 60-90 Mins Doorstep',
       typicalAreaRange: '2 • 3 • 4 Burner Stoves',
-      servicePriceStartingINR: 299,
+      servicePriceStartingINR: 399,
       turnaroundHours: 'Doorstep in 60-90 Mins',
       warrantyCoverage: '90-Day Service Warranty + 6-Month Part Guarantee',
       topBrands: ['Faber', 'Gilma', 'Crompton', 'Hindware'],
@@ -254,9 +254,9 @@ export class InteriorService {
         { step: 6, title: 'Safety Certification & Load Testing', desc: 'Testing all burners simultaneously under full domestic gas pressure.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN GAS STOVE & COOKTOP REPAIR SPECIALIZATION:',
+        '1. OMNIAPPLIANCES GAS STOVE & COOKTOP REPAIR SPECIALIZATION:',
         'Freestanding glass and stainless steel gas stoves remain the backbone of everyday household cooking. However, accumulated food spills, grease carbonization, and degraded rubber O-rings can cause dangerous gas leakage, sluggish low flames, and burner backfiring.',
-        'Sultan Home Appliances provides fast, reliable, same-day doorstep servicing and valve reconditioning for 2, 3, and 4-burner stoves across Faber, Gilma, Crompton, Hindware, and all major domestic gas stove brands.',
+        'OmniAppliances provides fast, reliable, same-day doorstep servicing and valve reconditioning for 2, 3, and 4-burner stoves across Faber, Gilma, Crompton, Hindware, and all major domestic gas stove brands.',
         '',
         '2. GAS LEAKAGE DETECTION & VALVE REBUILDING:',
         'A hissing sound or smell of LPG/PNG gas near the stove knobs indicates worn internal valve seals or dried grease on the conical valve core. Our technicians dismantle the gas manifold assembly, clean the brass cocks, replace micro O-rings, and apply specialized high-pressure molybdenum gas grease to ensure buttery-smooth knob rotation with zero leak risk.',
@@ -269,7 +269,7 @@ export class InteriorService {
         'For auto-ignition glass cooktops, we diagnose failing multi-spark generator units, replace damaged ceramic electrode pins, and rewire battery terminals. In the event of cracked or shattered top glass, we supply and fit brand-certified 8mm shatter-proof replacement glass panels with high thermal tolerance.',
         '',
         '5. AFFORDABLE DOORSTEP SERVICE & RAPID DISPATCH:',
-        'Gas stove inspection and tune-ups start at an economical ₹299. Our service vans are fully stocked with universal and brand-specific brass burners, mixing tubes, knobs, and valves for instant on-the-spot repair within 60 to 90 minutes. Call 8076224170 for instant booking.'
+        'Gas stove inspection and tune-ups start at an economical ₹399. Our service vans are fully stocked with universal and brand-specific brass burners, mixing tubes, knobs, and valves for instant on-the-spot repair within 60 to 90 minutes. Call 8088034849 for instant booking.'
       ]
     },
     {
@@ -312,9 +312,9 @@ export class InteriorService {
         { step: 6, title: 'Multi-Stage Temperature Bake Test', desc: 'Simulated 200°C convection baking cycle to verify uniform heat distribution.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN BUILT-IN OVEN & CONVECTION REPAIR EXPERTISE:',
+        '1. OMNIAPPLIANCES BUILT-IN OVEN & CONVECTION REPAIR EXPERTISE:',
         'Modern built-in culinary ovens from Siemens, Bosch, and Häfele are complex thermal appliances combining high-voltage heating coils, microprocessor relay boards, circulating convection fans, and sensitive NTC temperature sensors.',
-        'When your oven fails to heat, bakes unevenly, or trips the main electrical breaker, attempting amateur repairs can damage expensive electronic boards. Sultan Home Appliances provides specialized, certified technician service for luxury convection ovens, combi-steamers, and built-in microwave units.',
+        'When your oven fails to heat, bakes unevenly, or trips the main electrical breaker, attempting amateur repairs can damage expensive electronic boards. OmniAppliances provides specialized, certified technician service for luxury convection ovens, combi-steamers, and built-in microwave units.',
         '',
         '2. HEATING ELEMENT & CONVECTION MOTOR REPLACEMENT:',
         'Ovens utilize separate upper broil elements, lower hidden bake elements, and circular ring elements around the 3D HotAir fan. Over years of thermal cycling, internal heating wire oxidizes and burns open. Our technicians carry genuine OEM incoloy heating elements and replace failed coils on-site.',
@@ -328,7 +328,7 @@ export class InteriorService {
         'Worn silicone door perimeter gaskets allow hot air to leak out, damaging kitchen laminates and increasing energy consumption. We fit factory-grade silicone perimeter seals and repair loose quadruple-glazed door hinges and soft-close damping mechanisms.',
         '',
         '5. BOOKING, PRICING & WARRANTY:',
-        'Oven diagnostic visits start at ₹599. Every replacement heating element, sensor, and fan motor comes with an official 1-Year replacement warranty. Contact 8076224170 or message us on WhatsApp for rapid technician scheduling.'
+        'Oven diagnostic visits start at ₹599. Every replacement heating element, sensor, and fan motor comes with an official 1-Year replacement warranty. Contact 8088034849 or message us on WhatsApp for rapid technician scheduling.'
       ]
     },
     {
@@ -348,7 +348,7 @@ export class InteriorService {
       trendingStyle: 'German IGBT & Motherboard Micro-Repair',
       executionWeeks: 'Within 90-120 Mins Doorstep',
       typicalAreaRange: '1800W – 3500W Induction Plates',
-      servicePriceStartingINR: 349,
+      servicePriceStartingINR: 399,
       turnaroundHours: 'Doorstep in 90 Minutes',
       warrantyCoverage: '90-Day Service Warranty + 6-Month Component Guarantee',
       topBrands: ['Bosch', 'Siemens', 'Crompton', 'Faber'],
@@ -371,9 +371,9 @@ export class InteriorService {
         { step: 6, title: 'Full Load Continuous Boil Test', desc: 'Testing 2100W/3500W power boost with magnetic cookware to verify stability.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN INDUCTION COOKTOP REPAIR SPECIALIZATION:',
+        '1. OMNIAPPLIANCES INDUCTION COOKTOP REPAIR SPECIALIZATION:',
         'Induction cooktops provide unmatched cooking speed and energy efficiency. However, because they operate on high-frequency electromagnetic switching (20kHz to 50kHz) and high currents, voltage spikes and cooling fan failures can cause the main IGBT power transistor and bridge rectifier to blow instantly.',
-        'At Sultan Home Appliances, we specialize in component-level electronic repair for portable induction plates and multi-zone built-in induction hobs from Bosch, Siemens, Crompton, Faber, and Philips.',
+        'At OmniAppliances, we specialize in component-level electronic repair for portable induction plates and multi-zone built-in induction hobs from Bosch, Siemens, Crompton, Faber, and Philips.',
         '',
         '2. IGBT REPLACEMENT & THERMAL MANAGEMENT:',
         'When an induction unit trips the household breaker with a pop, the internal IGBT (Insulated-Gate Bipolar Transistor) has short-circuited. Rather than replacing the entire costly power assembly, our electronic technicians replace failed transistors with heavy-duty original 1200V German Infineon/Fairchild IGBTs, apply high-conductivity thermal silicone paste, and service the cooling fan to prevent future thermal failures.',
@@ -385,7 +385,7 @@ export class InteriorService {
         'Spilled liquids on the control panel can corrode capacitive touch traces. We clean, dry, and conformal-coat touch boards to restore responsive finger-swipe control. We also replace cracked Schott Ceran and micro-crystal glass tops.',
         '',
         '5. SERVICE RATES & FAST DOORSTEP REPAIR:',
-        'Induction repair starts at just ₹349. We carry portable test benches and OEM spares in our mobile service kits. Call 8076224170 for instant booking.'
+        'Induction repair starts at just ₹399. We carry portable test benches and OEM spares in our mobile service kits. Call 8088034849 for instant booking.'
       ]
     },
     {
@@ -405,7 +405,7 @@ export class InteriorService {
       trendingStyle: '5.0 kW Triple-Ring Ultrasonic Descaling',
       executionWeeks: 'Within 60-90 Mins Doorstep',
       typicalAreaRange: 'Single, Double & Triple Ring Burners',
-      servicePriceStartingINR: 299,
+      servicePriceStartingINR: 399,
       turnaroundHours: 'Doorstep in 60-90 Minutes',
       warrantyCoverage: '90-Day Service Warranty + 1-Year Burner Guarantee',
       topBrands: ['Häfele', 'Bosch', 'Faber', 'Gilma'],
@@ -428,9 +428,9 @@ export class InteriorService {
         { step: 6, title: 'Multi-Stage High Flame Testing', desc: 'Testing low-simmer to full 5.0 kW maximum flame output.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN PROFESSIONAL GAS BURNER RESTORATION:',
+        '1. OMNIAPPLIANCES PROFESSIONAL GAS BURNER RESTORATION:',
         'Forged brass burners are the heart of powerful Indian and Asian cooking. However, daily boiling overflows of starch, oil, and spices block the micro-ports, leading to uneven burning, dangerous backfiring, and sluggish cooking times.',
-        'Sultan Home Appliances provides specialized ultrasonic descaling, precision gas jet calibration, and LPG/PNG conversion services for Italian double-ring, triple-ring, and commercial wok burners.',
+        'OmniAppliances provides specialized ultrasonic descaling, precision gas jet calibration, and LPG/PNG conversion services for Italian double-ring, triple-ring, and commercial wok burners.',
         '',
         '2. ULTRASONIC DECARBONIZING & SEAT LAPPING:',
         'Standard cleaning cannot remove baked-on carbon deep inside the gas mixing channels. We utilize industrial ultrasonic baths and specialized decarbonizing solvents to dissolve stubborn encrustations without eroding the precision brass metal.',
@@ -440,7 +440,7 @@ export class InteriorService {
         'Switching from LPG gas cylinders to piped natural gas (PNG) requires replacing all internal burner nozzles because PNG operates at lower pressure (20 mbar vs 30 mbar for LPG) and requires larger orifice diameters. Using incorrect jets leads to feeble flames or dangerous soot. We install brand-certified PNG conversion kits tailored to your specific hob model.',
         '',
         '4. SERVICE RATES & INSTANT BOOKING:',
-        'Burner restoration starts at ₹299 per stove. Book online or call 8076224170 for instant doorstep dispatch.'
+        'Burner restoration starts at ₹399 per stove. Book online or call 8088034849 for instant doorstep dispatch.'
       ]
     },
     {
@@ -460,7 +460,7 @@ export class InteriorService {
       trendingStyle: 'Pressure Sensor & Heating Base Overhaul',
       executionWeeks: 'Within 60-90 Mins Doorstep',
       typicalAreaRange: '3L • 5L • 8L Multi-Cookers',
-      servicePriceStartingINR: 299,
+      servicePriceStartingINR: 399,
       turnaroundHours: 'Doorstep in 60-90 Minutes',
       warrantyCoverage: '90-Day Service Warranty + 6-Month Part Guarantee',
       topBrands: ['Bosch', 'Crompton', 'Gilma'],
@@ -483,9 +483,9 @@ export class InteriorService {
         { step: 6, title: 'Pressure Cooking Steam Test', desc: 'Full-cycle water pressure test to certify zero steam escape and automatic shutoff.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN ELECTRIC & PRESSURE COOKER REPAIR SERVICES:',
+        '1. OMNIAPPLIANCES ELECTRIC & PRESSURE COOKER REPAIR SERVICES:',
         'Smart electric multi-cookers combine programmable digital timers, pressure relief switches, and automated heating plates to cook rice, grains, and meats with precision. When pressure sensors drift or silicone gaskets degrade, steam escapes and cooking stops prematurely.',
-        'Sultan Home Appliances provides fast doorstep repair for electric pressure cookers, rice cookers, and slow cookers from Bosch, Crompton, Gilma, and Instant Pot.',
+        'OmniAppliances provides fast doorstep repair for electric pressure cookers, rice cookers, and slow cookers from Bosch, Crompton, Gilma, and Instant Pot.',
         '',
         '2. STEAM LEAKAGE & PRESSURE FLOAT VALVE FIXES:',
         'If steam hisses continuously around the lid rim, the silicone sealing gasket has hardened or the anti-block vent is clogged with food residue. We replace gaskets with high-grade food-safe silicone seals, clean safety valves, and test pressure relief thresholds to ensure 100% kitchen safety.',
@@ -494,7 +494,7 @@ export class InteriorService {
         'For cookers that refuse to power on or display E1/E2 sensor faults, our technicians replace blown thermal fuses, clean carbonized heating plate contact surfaces, and recalibrate base NTC temperature sensors.',
         '',
         '4. SERVICE RATES & DISPATCH:',
-        'Electric cooker repairs start from ₹299. Call 8076224170 or chat on WhatsApp for fast doorstep service.'
+        'Electric cooker repairs start from ₹399. Call 8088034849 or chat on WhatsApp for fast doorstep service.'
       ]
     },
     {
@@ -537,9 +537,9 @@ export class InteriorService {
         { step: 6, title: 'Acoustic Foil Taping & Smoke Flow Test', desc: 'Air-tight foil tape sealing and smoke extraction volume verification.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN KITCHEN EXHAUST & VENTILATION SERVICING:',
+        '1. OMNIAPPLIANCES KITCHEN EXHAUST & VENTILATION SERVICING:',
         'Even the most powerful chimney will fail if the connected exhaust duct is choked with sludge, has too many sharp 90-degree bends, or is torn inside the false ceiling. Accumulated grease in ducts also presents a severe fire hazard.',
-        'Sultan Home Appliances provides turnkey kitchen exhaust pipe descaling, heavy-duty inline blower repairs, aluminium duct replacement, and external anti-backdraft louver installations for villas, apartments, and commercial food studios.',
+        'OmniAppliances provides turnkey kitchen exhaust pipe descaling, heavy-duty inline blower repairs, aluminium duct replacement, and external anti-backdraft louver installations for villas, apartments, and commercial food studios.',
         '',
         '2. DUCT DE-SLUDGING & REPLACEMENT:',
         'We replace fragile single-ply plastic pipes with industrial multi-layered reinforced aluminium ducting (6-inch and 8-inch diameters) capable of handling high thermal exhaust without sagging, tearing, or leaking oil into kitchen cabinets.',
@@ -548,7 +548,7 @@ export class InteriorService {
         'To prevent outside wind from pushing smoke back inside and to block bird or rodent nesting, we install spring-loaded stainless steel gravity cowl louvers on exterior wall openings.',
         '',
         '4. SERVICE RATES & DISPATCH:',
-        'Exhaust duct inspection and descaling starts at ₹499. Contact 8076224170 for professional technician assistance.'
+        'Exhaust duct inspection and descaling starts at ₹499. Contact 8088034849 for professional technician assistance.'
       ]
     },
     {
@@ -568,7 +568,7 @@ export class InteriorService {
       trendingStyle: '100% Genuine OEM Spares & Fitting',
       executionWeeks: 'Immediate Doorstep Delivery & Fitting',
       typicalAreaRange: 'Universal OEM Brand Compatibility',
-      servicePriceStartingINR: 199,
+      servicePriceStartingINR: 399,
       turnaroundHours: 'Immediate Dispatch',
       warrantyCoverage: '1-Year Official Replacement Guarantee',
       topBrands: ['Bosch', 'Faber', 'Elica', 'Siemens', 'Häfele'],
@@ -590,8 +590,8 @@ export class InteriorService {
         { step: 5, title: 'Warranty Tagging', desc: 'Issuing 1-Year official replacement warranty slip.' }
       ],
       detailedServiceGuide: [
-        '1. SULTAN GENUINE APPLIANCE SPARE PARTS & ACCESSORIES:',
-        'Using counterfeit or poorly machined duplicate burner caps and gas regulators can cause hazardous gas leaks and destroy hob valves. Sultan Home Appliances maintains an exhaustive inventory of 100% genuine OEM spare parts for Siemens, Bosch, Faber, Elica, Häfele, Gilma, Crompton, and Hindware cooking appliances.',
+        '1. OMNIAPPLIANCES GENUINE APPLIANCE SPARE PARTS & ACCESSORIES:',
+        'Using counterfeit or poorly machined duplicate burner caps and gas regulators can cause hazardous gas leaks and destroy hob valves. OmniAppliances maintains an exhaustive inventory of 100% genuine OEM spare parts for Siemens, Bosch, Faber, Elica, Häfele, Gilma, Crompton, and Hindware cooking appliances.',
         '',
         '2. COMPLETE SPARE PARTS INVENTORY:',
         '- Forged Italian brass double and triple-ring burner caps',
@@ -604,7 +604,7 @@ export class InteriorService {
         '- Industrial chimney degreasing & descaling chemical kits',
         '',
         '3. DOORSTEP FITTING & 1-YEAR GUARANTEE:',
-        'Every spare part purchased through Sultan Home Appliances includes professional doorstep fitting by a certified technician and a 1-Year replacement guarantee. Call 8076224170 for instant spare parts dispatch.'
+        'Every spare part purchased through OmniAppliances includes professional doorstep fitting by a certified technician and a 1-Year replacement guarantee. Call 8088034849 for instant spare parts dispatch.'
       ]
     }
   ];
@@ -645,7 +645,7 @@ export class InteriorService {
         'Electronic sniffer gas leak safety test with zero micro-leakage certified'
       ],
       materials: ['Genuine Bosch Micro-Switches', 'OEM Thermocouples', 'High-Temp Silicone Gaskets'],
-      designer: { name: 'Sultan Senior Tech Team', role: 'Gas Appliance Lead', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'OmniAppliances Senior Tech Team', role: 'Gas Appliance Lead', avatar: '/images/reviews/suresh_iyer.jpg' },
       location: 'Doorstep Service Across All Sectors',
       completedYear: 2025,
       description: 'Comprehensive restoration of Bosch FlameSelect 4-burner hob experiencing auto-ignition failure and uneven flame retention. Fully restored to factory 9-stage flame precision.',
@@ -687,7 +687,7 @@ export class InteriorService {
         'Re-sealed glass frame perimeter against countertop liquid seepage'
       ],
       materials: ['Siemens OEM Valve Seals', 'Electronic Display Harness', 'Gas Cock Grease'],
-      designer: { name: 'Siemens Master Specialist', role: 'Luxury Appliance Tech', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'Siemens Master Specialist', role: 'Luxury Appliance Tech', avatar: '/images/reviews/chef_tarun_kapoor.jpg' },
       location: 'Siemens Certified Service Warranty',
       completedYear: 2025,
       description: 'Full valve rebuilding and electronic display calibration for Siemens 90cm 5-burner luxury hob. Replaced central wok injector and certified safe gas tightness.',
@@ -732,7 +732,7 @@ export class InteriorService {
         'Restored 100% full 1500 m³/hr suction capacity and foil-taped duct pipe'
       ],
       materials: ['Industrial Alkaline Degreaser', 'Sealed Ball Bearings', 'Thermal Heating Element'],
-      designer: { name: 'Faber Master Service Team', role: 'Air Systems Specialist', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'Faber Master Service Team', role: 'Air Systems Specialist', avatar: '/images/reviews/rohan_mehta.jpg' },
       location: 'Guaranteed Faber Suction Restoration',
       completedYear: 2025,
       description: 'Comprehensive chemical descaling and bearing replacement for a grease-clogged Faber 1500 m³/hr chimney. Fully restored suction and repaired auto-clean function.',
@@ -775,7 +775,7 @@ export class InteriorService {
         'Re-sealed EDS3 deep silence acoustic insulation pads'
       ],
       materials: ['Elica Gesture Sensor PCB', 'Anti-Leak Aluminium Duct', 'Acoustic Foam'],
-      designer: { name: 'Elica Certified Tech', role: 'Electronics Specialist', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'Elica Certified Tech', role: 'Electronics Specialist', avatar: '/images/reviews/suresh_iyer.jpg' },
       location: '100% Genuine Elica Parts Guarantee',
       completedYear: 2025,
       description: 'Electronic PCB repair and gesture sensor wave tuning for Elica EDS3 deep silence hood. Replaced torn ducting and tested touchless controls.',
@@ -819,7 +819,7 @@ export class InteriorService {
         'Replaced degraded silicone door seal to prevent kitchen cabinet heat damage'
       ],
       materials: ['Siemens Incoloy Heating Coil', 'NTC Sensor Probe', 'Silicone Door Gasket'],
-      designer: { name: 'Siemens Oven Master Tech', role: 'Thermal Systems Lead', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'Siemens Oven Master Tech', role: 'Thermal Systems Lead', avatar: '/images/reviews/chef_tarun_kapoor.jpg' },
       location: 'Official Siemens Spare Part Warranty',
       completedYear: 2025,
       description: 'Heating element replacement and NTC sensor calibration for Siemens iQ700 built-in pyrolytic oven. Tested at 250°C for uniform thermal distribution.',
@@ -863,7 +863,7 @@ export class InteriorService {
         'Full load 3500W power boost test with cookware recognition verified'
       ],
       materials: ['Infineon 1200V IGBT', 'Bridge Rectifier 25A', 'Thermal Silicone Paste'],
-      designer: { name: 'Bosch Electronics Specialist', role: 'PCB Service Lead', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80' },
+      designer: { name: 'Bosch Electronics Specialist', role: 'PCB Service Lead', avatar: '/images/reviews/ananya_deshmukh.jpg' },
       location: '90-Day Electronic Board Guarantee',
       completedYear: 2025,
       description: 'Component-level motherboard repair for Bosch FlexInduction cooktop tripping breaker. Replaced shorted IGBT transistors and certified 100% full-power operation.',

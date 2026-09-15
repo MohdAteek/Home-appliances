@@ -22,7 +22,7 @@ import { DownloadService } from '../../services/download.service';
           <div class="space-y-1.5">
             <div class="flex flex-wrap items-center gap-2">
               <span class="badge-pill bg-[var(--color-primary)] text-white text-[0.7rem] font-bold">
-                SULTAN EXPERT REPAIR SERVICE
+                OMNIAPPLIANCES EXPERT REPAIR SERVICE
               </span>
               <span class="badge-pill badge-flame text-[0.7rem] font-bold font-mono">
                 ⚡ {{ category()!.turnaroundHours }}
@@ -216,7 +216,7 @@ export class CategoryServiceDetailModalComponent {
   close = output<void>();
   bookService = output<RoomCategoryId>();
 
-  readonly contactNumber = '8076224170';
+  readonly contactNumber = '8088034849';
 
   activeImage = signal<string>('');
 
@@ -228,7 +228,7 @@ export class CategoryServiceDetailModalComponent {
 
   async downloadActiveImage(): Promise<void> {
     if (!this.category()) return;
-    const filename = `Sultan_Repair_Service_${this.category()!.id}_Photo.jpg`;
+    const filename = `OmniAppliances_Repair_Service_${this.category()!.id}_Photo.jpg`;
     await this.downloadService.downloadImage(this.activeImage(), filename);
   }
 
@@ -238,7 +238,7 @@ export class CategoryServiceDetailModalComponent {
 
     const textContent = `
 ================================================================================
-  SULTAN HOME APPLIANCES — OFFICIAL TECHNICAL REPAIR & SERVICE MANUAL
+  OMNIAPPLIANCES — OFFICIAL TECHNICAL REPAIR & SERVICE MANUAL
 ================================================================================
 SERVICE CATEGORY     : ${cat.name.toUpperCase()}
 ESTIMATED TURNAROUND : ${cat.turnaroundHours}
@@ -262,13 +262,13 @@ ${cat.commonIssues.map((issue, idx) => `${idx + 1}. ${issue}`).join('\n')}
 ${cat.repairProcess.map(step => `Step ${step.step}: [${step.title}] -> ${step.desc}`).join('\n')}
 
 ================================================================================
-SULTAN HOME APPLIANCES REPAIR & SERVICE CENTER
-24/7 Hotline Support: 8076224170
-Direct WhatsApp Desk: https://wa.me/918076224170
+OMNIAPPLIANCES REPAIR & SERVICE CENTER
+24/7 Hotline Support: 8088034849
+Direct WhatsApp Desk: https://wa.me/918088034849
 100% Genuine OEM Spares • Siemens • Bosch • Faber • Elica • Häfele • Gilma • Crompton • Hindware
 ================================================================================
 `;
 
-    this.downloadService.downloadTextFile(textContent, `Sultan_Repair_Manual_${cat.id}.txt`);
+    this.downloadService.downloadTextFile(textContent, `OmniAppliances_Repair_Manual_${cat.id}.txt`);
   }
 }

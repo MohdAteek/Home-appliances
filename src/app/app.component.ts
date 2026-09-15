@@ -49,11 +49,11 @@ import { InteriorService } from './services/interior.service';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'SULTAN HOME APPLIANCES — Kitchen Cooking Appliance Repair & Servicing Center';
+  title = 'OmniAppliances — Kitchen Cooking Appliance Repair & Servicing Center';
   interiorService = inject(InteriorService);
 
-  readonly contactNumber = '8076224170';
-  readonly whatsappUrl = 'https://wa.me/918076224170?text=' + encodeURIComponent('Hello Sultan Home Appliances, I would like to book a technician for appliance repair.');
+  readonly contactNumber = '8088034849';
+  readonly whatsappUrl = 'https://wa.me/918088034849?text=' + encodeURIComponent('Hello OmniAppliances, I would like to book a technician for appliance repair.');
 
   selectedCategory = signal<RoomCategoryId | 'all'>('all');
   selectedCategoryDetail = signal<CategoryInfo | null>(null);

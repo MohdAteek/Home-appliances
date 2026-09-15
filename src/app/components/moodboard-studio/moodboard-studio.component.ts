@@ -157,7 +157,7 @@ interface ApplianceCheckItem {
               <!-- Action Buttons -->
               <div class="space-y-3 pt-4 border-t border-[var(--border-subtle)]">
                 <a 
-                  [href]="'https://wa.me/918076224170?text=' + getAmcBookingMsg()"
+                  [href]="'https://wa.me/918088034849?text=' + getAmcBookingMsg()"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn-flame w-full py-3 text-xs uppercase tracking-wider shadow-lg text-center">
@@ -212,17 +212,17 @@ export class MoodboardStudioComponent {
 
   getAmcBookingMsg(): string {
     const selectedNames = this.checklistItems.filter(i => i.selected).map(i => i.name).join(', ');
-    return encodeURIComponent(`Hello Sultan Appliances, I would like to book the Full Kitchen AMC Annual Plan (₹1,499) for my appliances: ${selectedNames}.`);
+    return encodeURIComponent(`Hello OmniAppliances, I would like to book the Full Kitchen AMC Annual Plan (₹1,499) for my appliances: ${selectedNames}.`);
   }
 
   downloadSafetyCertificate(): void {
     const selected = this.checklistItems.filter(i => i.selected);
     const dateStr = new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
-    const certId = 'SULTAN-SAFE-' + Math.floor(100000 + Math.random() * 900000);
+    const certId = 'OMNI-SAFE-' + Math.floor(100000 + Math.random() * 900000);
 
     const certContent = `
 ================================================================================
-     SULTAN HOME APPLIANCES — KITCHEN COOKING APPLIANCE SAFETY CERTIFICATE
+     OMNIAPPLIANCES — KITCHEN COOKING APPLIANCE SAFETY CERTIFICATE
 ================================================================================
 Certificate Reference : ${certId}
 Date of Evaluation    : ${dateStr}
@@ -244,8 +244,8 @@ SAFETY & COMPLIANCE MANDATE:
 4. 90-Day Full Service Warranty on all repairs.
 
 ================================================================================
-Sultan Home Appliances Repair Helpline: 8076224170
-WhatsApp Direct Desk: https://wa.me/918076224170
+OmniAppliances Repair Helpline: 8088034849
+WhatsApp Direct Desk: https://wa.me/918088034849
 ================================================================================
 `;
 

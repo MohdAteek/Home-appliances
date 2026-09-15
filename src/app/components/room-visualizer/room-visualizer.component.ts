@@ -143,7 +143,7 @@ interface DiagnosticModule {
 
             <div class="text-xs text-[var(--text-light)] flex items-center justify-between">
               <span>* Click on numbers 1, 2, 3 to inspect specific subsystem diagnostics</span>
-              <span class="font-mono font-bold">SULTAN DIAGNOSTIC ENGINE</span>
+              <span class="font-mono font-bold">OMNIAPPLIANCES DIAGNOSTIC ENGINE</span>
             </div>
 
           </div>
@@ -184,7 +184,7 @@ interface DiagnosticModule {
               <!-- Action -->
               <div class="pt-3 border-t border-[var(--border-subtle)] space-y-2">
                 <a 
-                  [href]="'https://wa.me/918076224170?text=' + getDiagnosticBookingMsg()"
+                  [href]="'https://wa.me/918088034849?text=' + getDiagnosticBookingMsg()"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn-flame w-full py-3 text-xs uppercase tracking-wider shadow-lg text-center">
@@ -262,18 +262,18 @@ export class RoomVisualizerComponent {
   }
 
   getDiagnosticBookingMsg(): string {
-    return encodeURIComponent(`Hello Sultan Appliances, I ran the online diagnostic for ${this.activeModule().name} and need technician service for ${this.currentSymptom.part} (Issue: ${this.currentSymptom.commonFailure}).`);
+    return encodeURIComponent(`Hello OmniAppliances, I ran the online diagnostic for ${this.activeModule().name} and need technician service for ${this.currentSymptom.part} (Issue: ${this.currentSymptom.commonFailure}).`);
   }
 
   downloadDiagnosticReport(): void {
     const mod = this.activeModule();
     const sym = this.currentSymptom;
     const dateStr = new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
-    const certId = 'SULTAN-DIAG-' + Math.floor(100000 + Math.random() * 900000);
+    const certId = 'OMNI-DIAG-' + Math.floor(100000 + Math.random() * 900000);
 
     const reportContent = `
 ================================================================================
-     SULTAN HOME APPLIANCES — ONLINE APPLIANCE DIAGNOSTIC HEALTH REPORT
+     OMNIAPPLIANCES — ONLINE APPLIANCE DIAGNOSTIC HEALTH REPORT
 ================================================================================
 Report Reference    : ${certId}
 Date of Diagnostic  : ${dateStr}
@@ -298,8 +298,8 @@ SERVICE & SAFETY RECOMMENDATION:
 - 90-Day Full Service Warranty on all repairs.
 
 ================================================================================
-Sultan Home Appliances 24/7 Helpline: 8076224170
-WhatsApp Direct Desk: https://wa.me/918076224170
+OmniAppliances 24/7 Helpline: 8088034849
+WhatsApp Direct Desk: https://wa.me/918088034849
 ================================================================================
 `;
 

@@ -250,11 +250,11 @@ export class CostEstimatorComponent {
     const cat = this.interiorService.getCategoryById(this.selectedCategory);
     const categoryName = cat ? cat.name : this.selectedCategory;
     const dateStr = new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
-    const quoteId = 'SULTAN-REP-' + Math.floor(100000 + Math.random() * 900000);
+    const quoteId = 'OMNI-REP-' + Math.floor(100000 + Math.random() * 900000);
 
     const quoteContent = `
 ================================================================================
-        SULTAN HOME APPLIANCES — OFFICIAL REPAIR & SERVICE ESTIMATE
+        OMNIAPPLIANCES — OFFICIAL REPAIR & SERVICE ESTIMATE
 ================================================================================
 Estimate Reference  : ${quoteId}
 Date of Issue       : ${dateStr}
@@ -281,9 +281,9 @@ DIAGNOSTIC & SAFETY CHECKPOINTS INCLUDED:
 6. Exhaust Ducting De-sludging       : ${this.includeFinishing ? 'INCLUDED' : 'OPTIONAL'}
 
 ================================================================================
-SULTAN APPLIANCE REPAIR HOTLINE & BOOKING:
-Phone / 24/7 Helpline: 8076224170
-WhatsApp Direct: https://wa.me/918076224170
+OMNIAPPLIANCES REPAIR HOTLINE & BOOKING:
+Phone / 24/7 Helpline: 8088034849
+WhatsApp Direct: https://wa.me/918088034849
 Authorized Spares for Siemens, Bosch, Faber, Elica, Häfele, Gilma, Crompton, Hindware.
 ================================================================================
 `;

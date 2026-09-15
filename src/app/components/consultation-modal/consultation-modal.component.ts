@@ -78,7 +78,7 @@ import { RoomCategoryId, ConsultationRequest } from '../../models/interior.model
                 [(ngModel)]="formData.phone" 
                 name="phone" 
                 required
-                placeholder="8076224170"
+                placeholder="8088034849"
                 class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl px-4 py-2.5 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium"
               />
             </div>
@@ -120,7 +120,7 @@ import { RoomCategoryId, ConsultationRequest } from '../../models/interior.model
               <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Preferred Service Time Slot</label>
               <select 
                 [(ngModel)]="formData.timeline" 
-                name="timeline"
+                name="timeline" 
                 class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl px-4 py-2.5 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium">
                 <option value="Emergency (Within 90-120 Minutes)">Emergency (Within 90-120 Minutes)</option>
                 <option value="Today Morning (10:00 AM - 01:00 PM)">Today Morning (10:00 AM - 01:00 PM)</option>
@@ -137,63 +137,57 @@ import { RoomCategoryId, ConsultationRequest } from '../../models/interior.model
               <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Appliance Brand</label>
               <select 
                 [(ngModel)]="formData.budgetTier" 
-                name="budgetTier"
+                name="budgetTier" 
                 class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl px-4 py-2.5 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium">
-                <option value="Bosch">Bosch (Germany)</option>
-                <option value="Siemens">Siemens (Germany)</option>
-                <option value="Faber">Faber (Italy)</option>
-                <option value="Elica">Elica (Italy)</option>
-                <option value="Häfele">Häfele (Germany)</option>
-                <option value="Hindware">Hindware (India)</option>
-                <option value="Gilma">Gilma (India)</option>
-                <option value="Crompton">Crompton (India)</option>
-                <option value="Other Brand">Other Cooking Appliance Brand</option>
+                <option *ngFor="let b of interiorService.brands" [value]="b.name">
+                  {{ b.name }} ({{ b.origin }})
+                </option>
               </select>
             </div>
 
             <div class="space-y-1.5">
-              <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Service Date</label>
+              <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Preferred Date</label>
               <input 
                 type="date" 
                 [(ngModel)]="formData.preferredDate" 
-                name="preferredDate"
+                name="preferredDate" 
                 class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl px-4 py-2.5 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium"
               />
             </div>
           </div>
 
-          <!-- Address & Notes -->
+          <!-- Problem Description Notes -->
           <div class="space-y-1.5">
-            <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Doorstep Service Address & Specific Fault Details</label>
+            <label class="text-xs font-bold uppercase tracking-wider text-[var(--text-light)]">Fault Details / Kitchen Address (Optional)</label>
             <textarea 
               [(ngModel)]="formData.projectScopeNotes" 
-              name="projectScopeNotes" 
-              rows="3" 
-              placeholder="e.g. Flat 402, Green Valley Apartments, Sector 15. Bosch 4-burner hob spark clicking continuously and middle burner low flame..."
-              class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl px-4 py-2.5 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium"></textarea>
+              name="notes" 
+              rows="2"
+              placeholder="e.g. 4th floor flat, Siemens hob middle burner clicking continuously, smell of gas..."
+              class="w-full bg-[var(--bg-surface-subtle)] text-[var(--text-main)] text-sm rounded-xl p-3 border border-[var(--border-subtle)] outline-none focus:border-[var(--color-secondary)] font-medium resize-none">
+            </textarea>
           </div>
 
-          <!-- Submit Action -->
-          <div class="flex items-center justify-end gap-3 pt-4 border-t border-[var(--border-subtle)]">
-            <button 
-              type="button" 
-              (click)="close.emit()"
-              class="btn-secondary text-xs py-2.5 px-5 font-bold">
-              Cancel
-            </button>
+          <!-- Service Rate Assurance & Submit Button -->
+          <div class="pt-2 border-t border-[var(--border-subtle)] flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-xs text-[var(--text-muted)] space-y-0.5 text-center sm:text-left">
+              <span class="block font-bold text-emerald-600">✓ Transparent Doorstep Diagnostic from ₹399</span>
+              <span class="block text-[0.7rem]">100% Genuine OEM Spares • 90-Day Service Guarantee</span>
+            </div>
+
             <button 
               type="submit" 
-              class="btn-flame text-xs py-2.5 px-6 uppercase tracking-wider font-bold shadow-lg">
-              Confirm Technician Booking →
+              class="btn-flame text-xs uppercase tracking-wider py-3.5 px-8 shadow-xl whitespace-nowrap w-full sm:w-auto">
+              Confirm & Book Technician →
             </button>
           </div>
 
         </form>
 
-        <!-- State 2: Booking Confirmation Receipt -->
-        <div *ngIf="submittedRequest" class="space-y-6 text-center py-4 animate-scale-in">
+        <!-- 3. Confirmation Success Screen -->
+        <div *ngIf="submittedRequest" class="py-8 text-center space-y-6 animate-fade-in">
           
-          <div class="w-16 h-16 rounded-full bg-emerald-500/15 text-emerald-500 text-3xl font-bold flex items-center justify-center mx-auto">
+          <div class="w-20 h-20 rounded-full bg-emerald-500/10 text-emerald-500 border-2 border-emerald-500/30 flex items-center justify-center text-4xl mx-auto">
             ✓
           </div>
 
@@ -203,7 +197,7 @@ import { RoomCategoryId, ConsultationRequest } from '../../models/interior.model
               Booking Confirmed! Technician Contacting You Shortly
             </h4>
             <p class="text-sm text-[var(--text-muted)] max-w-md mx-auto">
-              Your service request reference has been registered in the Sultan Home Appliances system.
+              Your service request reference has been registered in the OmniAppliances system.
             </p>
           </div>
 
@@ -292,7 +286,7 @@ export class ConsultationModalComponent {
     }
 
     const booking: ConsultationRequest = {
-      id: 'SULTAN-SVC-' + Math.floor(100000 + Math.random() * 900000),
+      id: 'OMNI-SVC-' + Math.floor(100000 + Math.random() * 900000),
       name: this.formData.name,
       email: this.formData.email,
       phone: this.formData.phone,
@@ -317,7 +311,7 @@ export class ConsultationModalComponent {
 
     const receiptContent = `
 ================================================================================
-  SULTAN HOME APPLIANCES — OFFICIAL DOORSTEP TECHNICIAN BOOKING RECEIPT
+  OMNIAPPLIANCES — OFFICIAL DOORSTEP TECHNICIAN BOOKING RECEIPT
 ================================================================================
 Booking Reference   : ${b.id}
 Customer Name       : ${b.name}
@@ -335,12 +329,13 @@ ${b.projectScopeNotes || 'No specific notes provided.'}
 --------------------------------------------------------------------------------
 SERVICE ASSURANCE:
 - Doorstep Technician Visit within 90-120 minutes.
+- Doorstep Inspection & Service Charge: ₹399.
 - Electronic Sniffer Gas Leakage Audit Included.
 - 100% Genuine OEM Spares with 1-Year Guarantee.
 - 90-Day Full Service Warranty.
 --------------------------------------------------------------------------------
-Sultan Home Appliances Repair Helpline: 8076224170
-WhatsApp Direct: https://wa.me/918076224170
+OmniAppliances Repair Helpline: 8088034849
+WhatsApp Direct: https://wa.me/918088034849
 ================================================================================
 `;
 

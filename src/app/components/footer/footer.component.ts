@@ -19,11 +19,11 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
           <div class="lg:col-span-5 space-y-6">
             <div class="flex items-center gap-3">
               <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-500 to-[var(--color-secondary)] text-[#121417] flex items-center justify-center font-serif text-xl font-extrabold shadow-lg">
-                S
+                O
               </div>
               <div>
                 <span class="font-serif text-2xl font-extrabold tracking-tight text-white block leading-none">
-                  SULTAN
+                  OmniAppliances
                 </span>
                 <span class="text-[0.65rem] tracking-[0.25em] font-bold text-amber-400 uppercase block mt-1">
                   KITCHEN APPLIANCE REPAIR CENTER
@@ -148,7 +148,7 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
         <!-- Bottom Copyright Row -->
         <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-white/10 text-xs text-zinc-400">
           <div>
-            © {{ currentYear }} SULTAN HOME APPLIANCES. All rights reserved. Professional Kitchen Cooking Appliance Repair & Servicing.
+            © {{ currentYear }} OmniAppliances. All rights reserved. Professional Kitchen Cooking Appliance Repair & Servicing.
           </div>
 
           <div class="flex items-center gap-6">
@@ -171,8 +171,8 @@ export class FooterComponent {
   selectCategory = output<RoomCategoryId>();
   viewCategoryDetail = output<CategoryInfo>();
 
-  readonly contactNumber = '8076224170';
-  readonly whatsappUrl = 'https://wa.me/918076224170?text=' + encodeURIComponent('Hello Sultan Home Appliances, I would like to book a technician for appliance repair.');
+  readonly contactNumber = '8088034849';
+  readonly whatsappUrl = 'https://wa.me/918088034849?text=' + encodeURIComponent('Hello OmniAppliances, I would like to book a technician for appliance repair.');
 
   phoneInput = '';
   currentYear = new Date().getFullYear();

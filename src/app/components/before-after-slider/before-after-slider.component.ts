@@ -216,7 +216,7 @@ export class BeforeAfterSliderComponent {
 
   async downloadAfterImage(): Promise<void> {
     const item = this.currentPair;
-    const filename = `Sultan_Repair_Result_${item.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`;
+    const filename = `OmniAppliances_Repair_Result_${item.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`;
     await this.downloadService.downloadImage(item.afterImg, filename);
   }
 }

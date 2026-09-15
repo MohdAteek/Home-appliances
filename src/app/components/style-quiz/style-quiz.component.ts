@@ -152,7 +152,7 @@ import { DesignStyle, StyleQuizResult } from '../../models/interior.models';
 
               <div class="flex items-center gap-3">
                 <a 
-                  [href]="'https://wa.me/918076224170?text=' + getBookingMsg()"
+                  [href]="'https://wa.me/918088034849?text=' + getBookingMsg()"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn-flame text-xs py-2.5 px-5 shadow-lg">
@@ -210,6 +210,6 @@ export class StyleQuizComponent {
 
   getBookingMsg(): string {
     if (!this.quizResult) return '';
-    return encodeURIComponent(`Hello Sultan Appliances, I ran the online diagnostic and need technician service for: ${this.quizResult.title}.`);
+    return encodeURIComponent(`Hello OmniAppliances, I ran the online diagnostic and need technician service for: ${this.quizResult.title}.`);
   }
 }

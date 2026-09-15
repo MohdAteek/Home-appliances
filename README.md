@@ -1,6 +1,6 @@
-# Sultan Home Appliances — Premium Kitchen Cooking Appliances Showroom
+# OmniAppliances — Premium Kitchen Cooking Appliances Repair & Servicing Center
 
-A modern, high-performance web showroom and ecommerce showcase dedicated exclusively to kitchen cooking appliances. Authorized dealer platform featuring **Siemens, Bosch, Faber, Elica, Gilma, Häfele, Crompton, and Hindware**.
+A modern, high-performance web platform and service booking center dedicated exclusively to kitchen cooking appliances. Doorstep repair specialist featuring **Siemens, Bosch, Faber, Elica, Gilma, Häfele, Crompton, and Hindware**. Fixed doorstep inspection & service charge: ₹399.
 
 ---
 
@@ -28,7 +28,7 @@ A modern, high-performance web showroom and ecommerce showcase dedicated exclusi
 11. **Appliance & Finish Moodboard Canvas Studio**: Interactive canvas to pin hobs, chimneys, ovens, and marble finishes with 1-click JPG composite export.
 12. **Customer Testimonials**: Verified homeowner, chef, and modular kitchen architect reviews.
 13. **Saved Appliances Drawer & Quote Booking Modal**: Persistent wishlist and formal appointment booking engine.
-14. **Direct Contact Integration**: Call `8076224170` and direct WhatsApp integration.
+14. **Direct Contact Integration**: Call `8088034849` and direct WhatsApp integration.
 
 ---
 

@@ -235,7 +235,7 @@ import { DesignProject, RoomCategoryId, BrandName } from '../../models/interior.
                 </button>
 
                 <a 
-                  [href]="'https://wa.me/918076224170?text=' + getQuoteMessage(project)"
+                  [href]="'https://wa.me/918088034849?text=' + getQuoteMessage(project)"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="btn-flame text-xs py-2 px-3 justify-center w-full font-bold text-center">
@@ -368,7 +368,7 @@ import { DesignProject, RoomCategoryId, BrandName } from '../../models/interior.
 
               <!-- Emergency Note -->
               <div class="p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-800 dark:text-emerald-300 font-medium">
-                ⚡ Certified technician ready for same-day doorstep dispatch. Call 8076224170.
+                ⚡ Certified technician ready for same-day doorstep dispatch. Call 8088034849.
               </div>
 
             </div>
@@ -378,14 +378,14 @@ import { DesignProject, RoomCategoryId, BrandName } from '../../models/interior.
           <!-- Modal Action Bar -->
           <div class="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-[var(--border-subtle)]">
             <a 
-              [href]="'tel:8076224170'"
+              [href]="'tel:8088034849'"
               class="btn-secondary text-xs py-2.5 px-4 font-bold">
-              📞 Call Helpline: 8076224170
+              📞 Call Helpline: 8088034849
             </a>
 
             <div class="flex items-center gap-3">
               <a 
-                [href]="'https://wa.me/918076224170?text=' + getQuoteMessage(selectedProjectModal)"
+                [href]="'https://wa.me/918088034849?text=' + getQuoteMessage(selectedProjectModal)"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn-flame text-xs py-2.5 px-5 shadow-lg">
@@ -485,7 +485,7 @@ export class GalleryHubComponent {
   }
 
   async downloadImage(project: DesignProject): Promise<void> {
-    const filename = `Sultan_Repair_${project.brand}_${project.category}_${project.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`;
+    const filename = `OmniAppliances_Repair_${project.brand}_${project.category}_${project.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`;
     await this.downloadService.downloadImage(project.image, filename);
   }
 
@@ -499,6 +499,6 @@ export class GalleryHubComponent {
   }
 
   getQuoteMessage(project: DesignProject): string {
-    return encodeURIComponent(`Hello Sultan Appliances, I would like to book a technician for ${project.title} (Inspection: ₹${project.priceINR}).`);
+    return encodeURIComponent(`Hello OmniAppliances, I would like to book a technician for ${project.title} (Inspection: ₹${project.priceINR}).`);
   }
 }

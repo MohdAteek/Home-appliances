@@ -12,10 +12,10 @@ import { CommonModule } from '@angular/common';
         <!-- Header -->
         <div class="text-center max-w-3xl mx-auto space-y-4">
           <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[var(--bg-surface)] border border-[var(--border-subtle)] text-[var(--color-secondary)] text-xs font-bold uppercase tracking-wider">
-            <span>⭐</span> The Sultan Repair Advantage
+            <span>⭐</span> The OmniAppliances Repair Advantage
           </div>
           <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[var(--text-main)]">
-            Why Choose Sultan Kitchen Appliance Repair?
+            Why Choose OmniAppliances Kitchen Appliance Repair?
           </h2>
           <p class="text-base sm:text-lg text-[var(--text-muted)] leading-relaxed">
             With 15+ years of dedicated cooking appliance service expertise, we provide certified doorstep repairs, electronic gas leak audits, and genuine brand replacement spares.
@@ -79,10 +79,10 @@ import { CommonModule } from '@angular/common';
               💰
             </div>
             <h3 class="font-serif text-xl font-bold text-[var(--text-main)]">
-              Fixed Rate Card & 90-Day Guarantee
+              Fixed ₹399 Service Charge & 90-Day Guarantee
             </h3>
             <p class="text-xs text-[var(--text-muted)] leading-relaxed">
-              Transparent upfront diagnostic quotations before starting any work. No hidden charges. All service and labor is backed by our comprehensive 90-Day service warranty.
+              Transparent upfront diagnostic quotations starting from just ₹399 doorstep inspection. No hidden charges. All service and labor is backed by our comprehensive 90-Day service warranty.
             </p>
             <div class="pt-2 text-xs font-mono text-[var(--color-secondary)] font-bold">
               ✓ 90-Day Full Service Cover
@@ -105,9 +105,9 @@ import { CommonModule } from '@angular/common';
 
           <div class="flex flex-wrap items-center gap-3">
             <a 
-              [href]="'tel:8076224170'" 
+              [href]="'tel:8088034849'" 
               class="btn-flame py-3 px-6 text-xs uppercase tracking-wider whitespace-nowrap shadow-xl">
-              📞 Call Hotline 8076224170
+              📞 Call Hotline 8088034849
             </a>
             <button 
               (click)="openConsultation.emit()" 

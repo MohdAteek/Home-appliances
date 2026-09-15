@@ -77,7 +77,7 @@ import { DesignProject } from '../../models/interior.models';
               <!-- Quick Actions: Download & Delete -->
               <div class="flex flex-col gap-1.5 flex-shrink-0">
                 <button 
-                  (click)="downloadService.downloadImage(project.image, 'Sultan_' + project.title + '.jpg')"
+                  (click)="downloadService.downloadImage(project.image, 'OmniAppliances_' + project.title + '.jpg')"
                   class="btn-icon w-8 h-8 text-xs"
                   title="Download Product Sheet">
                   📥
@@ -144,7 +144,7 @@ export class FavoritesDrawerComponent {
   async downloadAllFavorites(): Promise<void> {
     const list = this.favoriteProjects.map(p => ({
       url: p.image,
-      name: `Sultan_${p.brand}_${p.category}_${p.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`
+      name: `OmniAppliances_${p.brand}_${p.category}_${p.title.replace(/[^a-zA-Z0-9_-]/g, '_')}.jpg`
     }));
     await this.downloadService.downloadBatch(list, 'Saved Appliances');
   }

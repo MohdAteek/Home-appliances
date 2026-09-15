@@ -24,13 +24,13 @@ import { RoomCategoryId, CategoryInfo } from '../../models/interior.models';
             <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[var(--bg-surface-subtle)] border border-[var(--border-subtle)]">
               <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
               <span class="text-xs font-bold uppercase tracking-[0.15em] text-[var(--color-secondary)]">
-                Doorstep Technician Available Within 90 Minutes
+                Doorstep Service Charge ₹399 • Dispatch in 90 Mins
               </span>
             </div>
 
             <!-- Main Headline -->
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[var(--text-main)] leading-[1.12]">
-              Professional Kitchen Cooking Appliance
+              OmniAppliances Kitchen Cooking Appliance
               <span class="font-serif italic font-normal text-[var(--color-secondary)] block">
                 Repair & Servicing Center.
               </span>

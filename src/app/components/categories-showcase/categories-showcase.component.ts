@@ -145,7 +145,7 @@ export class CategoriesShowcaseComponent {
   async downloadCategoryPack(cat: CategoryInfo) {
     const downloadItems = cat.images.map((imgUrl, idx) => ({
       url: imgUrl,
-      name: `Sultan_Repair_${cat.id}_Photo_${idx + 1}.jpg`
+      name: `OmniAppliances_Repair_${cat.id}_Photo_${idx + 1}.jpg`
     }));
     await this.downloadService.downloadBatch(downloadItems, `${cat.name} Service Photos`);
   }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OmniAppliances">
+  <rect width="64" height="64" rx="14" fill="#17252f"/>
+  <path d="M17 20h30v25H17z" fill="#f4f0e8"/>
+  <path d="M21 24h22v13H21z" fill="#d97736"/>
+  <circle cx="27" cy="30.5" r="3" fill="#17252f"/>
+  <circle cx="37" cy="30.5" r="3" fill="#17252f"/>
+  <path d="M23 42h18" stroke="#17252f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 9c-4 5-4 8 0 11 4-3 4-6 0-11Z" fill="#d97736"/>
+</svg>
